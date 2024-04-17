@@ -1,0 +1,199 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+body{
+    margin:0;
+    background-color: #eee;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+.nav{
+    margin-right: 80px;
+}
+
+.nav__li{
+    display: inline-block;
+    margin:15px;
+    
+}
+
+.nav__li a, .nav__li_login a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+.nav__li_login{
+    display: inline-block;
+    padding-left: 100px;
+    
+}
+
+.logo_login{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    height: 17px;
+}
+
+.nav__ul{
+    text-align: right;
+    
+}
+
+.logo_kinsta{
+    height: 40px;
+    padding-left: 50px;
+}
+
+.caja_color{
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    background: rgb(85,0,255);
+    background: linear-gradient(90deg, rgba(85,0,255,1) 31%, rgba(85,0,255,1) 39%, rgba(0,206,255,1) 84%);
+}
+
+
+h2{
+    padding: 25px;
+    margin-bottom:20px;
+    
+}
+
+.logo_flecha{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 40px;
+    padding-left: 10px;
+
+}
+
+section{
+    position: relative;
+    height: 800px;
+    width: 69%;
+    background-color: white ;
+    margin-left: 70px;
+    z-index: 1;
+    margin-top:50px;
+    box-shadow: 0px 0px 55px #fff2;
+}
+
+.contenedor_inputs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    
+}
+
+.div_input{
+    padding: 6px 20px;
+    width: 50%;
+
+}
+
+input , textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px;
+    border: none;
+    border:1px solid #a5a2a2;
+    border-radius: 1px;
+
+}
+
+label{
+    line-height: 2.4em;
+    margin-left:-45px;
+}
+
+.div_input_largo{
+    padding: 6px 20px;
+    width: 100%;
+    
+}
+
+textarea{
+    min-width: 100%;
+    resize: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    overflow: hidden;
+
+}
+
+
+.checkbox{
+    width: auto;
+    border: none;
+    border:1px solid #a5a2a2;
+}
+
+.label_checkbox{
+    padding-left: 50px;
+}
+
+button{
+    background-color: hwb(261 8% 7%);
+    color:white;
+    border-radius: 30px;
+    height: 45px;
+    border:none;
+    width: 200px;
+}
+
+.container{
+    display: flex;
+}
+
+aside{
+    position: relative;
+    background-color: white;
+    width: 420px;
+    height: 395px;
+    z-index: 999;
+    margin:15px;
+    margin-top:50px;
+    border-radius: 4px;
+    
+}
+
+.redes_ul{
+    margin:35px;
+    padding-top: 3px;
+    
+}
+
+.redes_li{
+    list-style: none;
+    margin:10px;
+}
+
+.redes_li i{
+    padding: 10px;
+    border-radius: 50% ;
+    background-color: hwb(261 8% 7%);
+    color:white;
+   
+}
+
+.redes_li a{
+    padding-left: 10px;
+}
+
+aside p,b{
+    margin-left:45px;
+}

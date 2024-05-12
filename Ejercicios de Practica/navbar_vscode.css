@@ -1,7 +1,25 @@
 aside{
-    margin:50px;
+    width: 25%;
 }
 
-ul li{
-    list-style:none;
+*{
+    color:rgb(196, 193, 193);
+    font-family:sans-serif;
 }
+
+.lista ul li {
+    list-style: none;
+}
+
+nav{
+   background-color: rgb(48, 45, 45); 
+   margin: 50px;
+   padding: 1px 5px;
+}
+
+.lista{
+    padding-left: 30px;
+    margin-top: 5px;
+    line-height: 27px ;
+}
+

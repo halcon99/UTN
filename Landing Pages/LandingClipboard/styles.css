@@ -1,0 +1,157 @@
+*{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    text-align: center;
+    background-image:url(./images/bg-header-desktop.png);
+    height: 300px;
+    
+    
+}
+
+.titulo{
+    padding-top: 100px;
+    background-color: transparent; 
+}
+
+header button{
+    color: white;
+    border: none;
+    height: 40px;
+    width: 190px;
+    border-radius: 20px;
+    margin: 30px 5px;
+}
+
+h1{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.subtitulo{
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+
+.C{
+    border-radius: 50%;
+    color: hsl(171, 66%, 44%);
+    border: 5px solid hsl(171, 66%, 44%);
+    display: inline-block;
+    background-color: transparent;
+    font-size: 50px;
+    font-weight: 900;
+    width: 70px;
+    
+}
+
+section{
+    text-align: center;
+    margin-top: 200px;
+}
+
+section h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+section p{
+    line-height: 30px;
+    color: hsl(201, 11%, 66%);
+}
+
+.compu{
+    align-items:left;
+    margin: 100px -35px;
+}
+
+.texto_compu{
+    float: right;
+    margin-right: 300px;
+    margin-top: 150px;
+}
+
+.texto_compu p {
+    margin: 10px 0px;
+    line-height: 30px;
+    color: hsl(201, 11%, 66%);
+    padding-bottom: 40px;
+}
+
+.compu_2{
+    margin-top:100px;
+    margin-bottom: -150px;
+}
+
+.items_container{
+    text-align: center;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.items{
+    margin: 80px 20px;
+
+}
+
+.item_image{
+    padding-bottom: 30px;
+    height: 44px 62px;
+    
+}
+.items p{
+    color: hsl(201, 11%, 66%);
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.empresas_container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 60px;
+
+}
+
+.empresas{
+    padding: 20px 0px;
+}
+
+footer{
+    background-color: rgb(240, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+    height: 130px;
+}
+
+.footer_cositas{
+    height: 90px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+
+}
+
+.footer_cositas a{
+    width: 170px;
+    padding: 0 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    height: 50px;
+}
+
+.redes{
+    padding: 0 10px;
+}
